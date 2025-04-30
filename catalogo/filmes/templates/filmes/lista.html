@@ -6,14 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Filmes cadastrados</title>
     <link rel="stylesheet" href="{% static 'filmes/style.css' %}">
+
+    <!-- Para ver o css atualizado precisa usar CTRL + SHIFT + R -->
 </head>
 <body>
 
     <h1>Lista de filmes</h1>
 
-    <div>
+    <div class="lista-filmes">
         {% for filme in filmes %}
-            <div>
+            <div class="filme">
                 <img src="{{filme.capa}}" alt="">
                 <p>{{filme.titulo}} ({{filme.ano}})</p>
             </div>
