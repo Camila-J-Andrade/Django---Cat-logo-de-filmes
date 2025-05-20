@@ -43,29 +43,29 @@ venv\Scripts\activate (Windows)
 
 Instale o django com o pip (se não tiver)
 
-'''
+```
 pip install django
 cd catalogo
 
-'''
+```
 Caso queira adicionar filmes, crie um super usuário com o código:
 !!!* Você precisará informar o nome de usuário que deseja, email (opcional) e senha
 
-'''
+```
 python manage.py createsuperuser
-'''
+```
 
 Agora rode o servidor com o comando:
 
-''' 
+```
 python manage.py runserver
-'''
+```
 
 Para acessar seu super usuário:
 
-'''
+```
 Abra no navegador: http://localhost:8000/admin
-'''
+```
 
 ## Desenvolvedoras
 
