@@ -15,13 +15,13 @@ Antes de começar, verifique se você atendeu aos seguintes requisitos:
 
 Primeiramente clone este repositório:
 
-''' git clone https://github.com/Camila-J-Andrade/Django---Cat-logo-de-filmes.git'''
+```git clone https://github.com/Camila-J-Andrade/Django---Cat-logo-de-filmes.git```
 Abra a pasta do projeto:
 
-'''
+```
 cd Django---Cat-logo-de-filmes
 cd catalogo
-'''
+```
 
 
 Para instalar o Catálogo de filmes, siga estas etapas:
